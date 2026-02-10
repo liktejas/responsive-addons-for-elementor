@@ -36,7 +36,7 @@
   display: inline-block !important; 
 }
 
-.rael-faq-container .rael-accordion-content {
+.rael-faq-container.rael-faq-layout-accordion .rael-accordion-content {
   display: none; 
 }
 
