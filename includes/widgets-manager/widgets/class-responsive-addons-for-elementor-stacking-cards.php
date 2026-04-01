@@ -614,9 +614,10 @@ class Responsive_Addons_For_Elementor_Stacking_Cards extends Widget_Base
 						'max' => 200,
 					),
 				),
-				'default' => array( 'size' => 20, 'unit' => 'px' ),
 				'dynamic' => array( 'active' => true ), 
-				'render_type' => 'template', 
+				'selectors' => array(
+					'{{WRAPPER}}' => 'margin-top: {{SIZE}}{{UNIT}};',
+				),
 			)
 		);
 
